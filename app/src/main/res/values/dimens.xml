@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">16sp</dimen>
+
+    <dimen name="headerImageHeight">200dp</dimen>
+    <dimen name="headerImageMarginBottom">16dp</dimen>
+
+    <dimen name="descriptionMargin">32dp</dimen>
+    <dimen name="descriptionLineSpacing">8sp</dimen>
+
+    <dimen name="contactsMarginStart">32dp</dimen>
+    <dimen name="contactsMarginBottom">16dp</dimen>
+    <dimen name="drawableStartPadding">16dp</dimen>
+</resources>

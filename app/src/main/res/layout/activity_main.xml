@@ -8,28 +8,28 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginBottom="16dp"
+        android:layout_height="@dimen/headerImageHeight"
+        android:layout_marginBottom="@dimen/headerImageMarginBottom"
         android:scaleType="centerCrop"
         android:src="@drawable/header_pizza" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="32dp"
-        android:lineSpacingExtra="8sp"
+        android:layout_margin="@dimen/descriptionMargin"
+        android:lineSpacingExtra="@dimen/descriptionLineSpacing"
         android:text="@string/description"
         android:textColor="@color/textColor"
-        android:textSize="16sp" />
+        android:textSize="@dimen/textSize" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginBottom="@dimen/contactsMarginBottom"
+        android:layout_marginStart="@dimen/contactsMarginStart"
 
-        android:drawablePadding="16dp"
+        android:drawablePadding="@dimen/drawableStartPadding"
         android:drawableStart="@drawable/ic_location_on_black_24dp"
         android:drawableTint="@color/colorAccent"
 
@@ -40,10 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginBottom="@dimen/contactsMarginBottom"
+        android:layout_marginStart="@dimen/contactsMarginStart"
 
-        android:drawablePadding="16dp"
+        android:drawablePadding="@dimen/drawableStartPadding"
         android:drawableStart="@drawable/ic_access_time_black_24dp"
         android:drawableTint="@color/colorAccent"
 
@@ -54,10 +54,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="32dp"
+        android:layout_marginBottom="@dimen/contactsMarginBottom"
+        android:layout_marginStart="@dimen/contactsMarginStart"
 
-        android:drawablePadding="16dp"
+        android:drawablePadding="@dimen/drawableStartPadding"
         android:drawableStart="@drawable/ic_access_time_black_24dp"
         android:drawableTint="@color/colorAccent"
 
